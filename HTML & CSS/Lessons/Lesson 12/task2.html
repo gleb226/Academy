@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="task2.css" />
+</head>
+<body>
+<section class="contact">
+    <div class="contact__container">
+        <h2 class="contact__title">Contact form</h2>
+        <p class="contact__subtitle">Please fill in your information and we'll be sending your order.</p>
+        <form class="contact__form">
+            <div class="contact__form-row">
+                <label class="contact__label">Your name</label>
+                <div class="contact__group">
+                    <input class="contact__input" type="text" placeholder="first name" required />
+                    <input class="contact__input" type="text" placeholder="last name" required />
+                </div>
+            </div>
+            <div class="contact__form-row">
+                <label class="contact__label">Your email</label>
+                <input class="contact__input" type="email" placeholder="your_mail@mail.com" name="email" required />
+            </div>
+            <div class="contact__form-row">
+                <label class="contact__label">Phone *</label>
+                <div class="contact__group">
+                    <input class="contact__input" type="tel" placeholder="000" required />
+                    <input class="contact__input" type="tel" placeholder="000" required />
+                    <input class="contact__input" type="tel" placeholder="0000" required />
+                </div>
+            </div>
+            <div class="contact__form-row">
+                <label class="contact__label">Message subject *</label>
+                <select class="contact__select" required>
+                    <option value="">Other</option>
+                    <option value="order">Order</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+            <div class="contact__form-row">
+                <label class="contact__label">Message *</label>
+                <textarea class="contact__textarea" rows="5" required></textarea>
+            </div>
+            <hr class="contact__divider"/>
+            <button class="contact__button" type="submit">SUBMIT FORM</button>
+        </form>
+    </div>
+</section>
+</body>
+</html>

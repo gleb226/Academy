@@ -1,0 +1,131 @@
+:root {
+  --sidenav-background: rgba(245, 229, 228, 255);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+main {
+  display: flex;
+}
+
+.email__header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+
+  & .email__photo {
+    padding-left: 2em;
+  }
+  & .email__name {
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+
+  & .email__gmail {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  & .email__user {
+    padding-right: 2em;
+  }
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  width: 10em;
+
+  & .sidenav__item {
+    padding: 15px;
+  }
+
+  & .sidenav__item p {
+    text-transform: capitalize;
+    font-size: 19px;
+    padding-left: 20px;
+  }
+
+  & .sidenav__item img {
+    float: left;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+  }
+
+  & .sidenav__item:hover {
+    background-color: var(--sidenav-background);
+  }
+}
+
+.notification-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 80%;
+
+  & .notification-panel__item {
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+  }
+
+  & .notification-panel__item p {
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+  }
+
+  & .notification-panel__item img {
+    width: 20px;
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+  }
+  & .notification-panel__item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+  }
+}
+span {
+    margin-left: auto;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+pre {
+  margin-right: auto;
+}
+
+@media screen and (width < 800px) {
+  .notification-panel .notification-panel__item {
+    white-space: wrap;
+
+    overflow: visible;
+    text-overflow: clip;
+    display: inline;
+    align-items: stretch;
+  }
+}
+
+@media screen and (width < 550px) {
+    .sidenav .sidenav__item p {
+        display: none;
+    }
+}

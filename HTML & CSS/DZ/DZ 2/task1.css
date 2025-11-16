@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: #ed9dae;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.fruit-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.fruit-list li {
+    background-color: #c56276;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.fruit-list .number {
+    background-color: #c46175;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.fruit-list {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.text {
+    background-color: #9d344a;
+    color: white;
+    padding: 10px;
+}

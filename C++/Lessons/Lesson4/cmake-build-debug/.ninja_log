@@ -1,0 +1,19 @@
+# ninja log v6
+1	266	1746342526850000000	CMakeFiles/Lesson4.dir/main.cpp.o.ddi	cfccac41b5c95bd7
+268	303	1746342527140000000	CMakeFiles/Lesson4.dir/CXX.dd	ab5f1108905265aa
+268	303	1746342527140000000	/run/media/gleb/USB/Academy/C++/Lessons/Lesson4/cmake-build-debug/CMakeFiles/Lesson4.dir/CXXModules.json	ab5f1108905265aa
+268	303	1746342527140000000	CMakeFiles/Lesson4.dir/main.cpp.o.modmap	ab5f1108905265aa
+303	1966	1746342527150000000	CMakeFiles/Lesson4.dir/main.cpp.o	bf0b5ec5dbe1da31
+1968	2211	1746342528810000000	Lesson4	7c429e2565375cc4
+6	403	1746344204340000000	CMakeFiles/Lesson4.dir/main.cpp.o.ddi	cfccac41b5c95bd7
+403	425	1746344204740000000	CMakeFiles/Lesson4.dir/CXX.dd	ab5f1108905265aa
+403	425	1746344204740000000	/run/media/gleb/USB/Academy/C++/Lessons/Lesson4/cmake-build-debug/CMakeFiles/Lesson4.dir/CXXModules.json	ab5f1108905265aa
+403	425	1746344204740000000	CMakeFiles/Lesson4.dir/main.cpp.o.modmap	ab5f1108905265aa
+425	1609	1746344204760000000	CMakeFiles/Lesson4.dir/main.cpp.o	bf0b5ec5dbe1da31
+1609	1807	1746344205950000000	Lesson4	7c429e2565375cc4
+3	780	1746344245460000000	CMakeFiles/Lesson4.dir/main.cpp.o.ddi	cfccac41b5c95bd7
+780	834	1746344246240000000	CMakeFiles/Lesson4.dir/CXX.dd	ab5f1108905265aa
+780	834	1746344246240000000	/run/media/gleb/USB/Academy/C++/Lessons/Lesson4/cmake-build-debug/CMakeFiles/Lesson4.dir/CXXModules.json	ab5f1108905265aa
+780	834	1746344246240000000	CMakeFiles/Lesson4.dir/main.cpp.o.modmap	ab5f1108905265aa
+835	2354	1746344246290000000	CMakeFiles/Lesson4.dir/main.cpp.o	bf0b5ec5dbe1da31
+2355	2648	1746344247810000000	Lesson4	7c429e2565375cc4

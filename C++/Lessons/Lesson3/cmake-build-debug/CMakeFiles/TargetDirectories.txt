@@ -1,0 +1,3 @@
+/run/media/gleb/USB/Academy/C++/Lessons/Lesson3/cmake-build-debug/CMakeFiles/Lesson3.dir
+/run/media/gleb/USB/Academy/C++/Lessons/Lesson3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/gleb/USB/Academy/C++/Lessons/Lesson3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

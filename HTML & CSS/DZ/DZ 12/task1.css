@@ -1,0 +1,87 @@
+:root {
+    --font-family: 'Segoe UI', sans-serif;
+    --color-primary: #ff4d4d;
+    --color-bg: #fefefe;
+    --color-white: #ffffff;
+    --color-gray: #ccc;
+    --gap: 1rem;
+    --radius: 10px;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-bg);
+    margin: 0;
+    padding: var(--gap);
+}
+
+.order {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order__title {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+.order__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.order__fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order__label,
+.order__legend {
+    font-weight: 600;
+}
+
+.order__input,
+.order__select,
+.order__textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--color-gray);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order__options {
+    display: flex;
+    gap: var(--gap);
+}
+
+.order__radio,
+.order__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.order__submit {
+    padding: 0.75rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.order__submit:hover {
+    background-color: #e03c3c;
+}

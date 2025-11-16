@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+.table-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grammar-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.grammar-table th,
+.grammar-table td {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.grammar-table__header {
+    font-weight: bold;
+    color: #000;
+}
+.grammar-table__header--aspect { background-color: #FFD700; }
+.grammar-table__header--simple { background-color: #B8A7F8; }
+.grammar-table__header--progressive { background-color: #F8A7A7; }
+.grammar-table__header--perfect { background-color: #A7F8B8; }
+.grammar-table__header--perfect-progressive { background-color: #B8F8F8; }
+
+.grammar-table__meaning { background-color: #FFEB99; font-weight: bold; }
+
+.grammar-table__period {
+    background-color: #FFD700;
+    font-weight: bold;
+    height: 0.7em;
+}
+.grammar-table__row-period td {
+    background-color: #FFEB99;
+    font-style: italic;
+}
+
+.grammar-table__tense {
+    background-color: #FFD700;
+    font-weight: bold;
+}
+
+.grammar-table td:nth-child(2) { background-color: #B8A7F8; }
+.grammar-table td:nth-child(3) { background-color: #F8A7A7; }
+.grammar-table td:nth-child(4) { background-color: #A7F8B8; }
+.grammar-table td:nth-child(5) { background-color: #B8F8F8; }

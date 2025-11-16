@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/DZ1.dir/task1.cpp.o: dyndep
+
+build CMakeFiles/DZ1.dir/task2.cpp.o: dyndep
+
+build CMakeFiles/DZ1.dir/task3.cpp.o: dyndep
+

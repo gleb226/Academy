@@ -1,0 +1,106 @@
+.header {
+    text-align: center;
+    color: rgba(227, 169, 59, 255);
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    width: 25em;
+    padding: 0px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: all 3s ease;
+
+    & .card__image {
+        padding: 0;
+        margin: 0;
+    }
+
+    & .card__image img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        max-height: 200px;
+    }
+
+    & .card__location {
+        color: gray;
+        padding-left: 10px;
+        padding-top: 20px;
+        transition: all 3s ease;
+    }
+
+    & .card__name {
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transition: all 3s ease;
+    }
+
+    & .card__information {
+        padding-left: 10px;
+        padding-bottom: 15px;
+        transition: all 3s ease;
+    }
+}
+
+.card:hover {
+    border-bottom: 5px solid orange;
+
+    & .card__image img {
+        width: 0%;
+        object-fit: contain;
+    }
+
+    & .card__location {
+        text-align: center;
+        font-style: italic;
+        padding-bottom: 15px;
+        color: white;
+        text-align: center;
+    }
+
+    & .card__name {
+        text-align: center;
+        background-color: orange;
+        text-align: center;
+    }
+
+    & .card__information {
+        padding-top: 20px;
+        text-align: center;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+
+.card:nth-child(1):hover {
+    background-image: url(project1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card:nth-child(2):hover {
+    background-image: url(project2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card:nth-child(3):hover {
+    background-image: url(project3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

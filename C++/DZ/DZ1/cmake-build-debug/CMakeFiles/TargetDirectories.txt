@@ -1,0 +1,3 @@
+/run/media/gleb/USB/Academy/C++/DZ/DZ1/cmake-build-debug/CMakeFiles/DZ1.dir
+/run/media/gleb/USB/Academy/C++/DZ/DZ1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/gleb/USB/Academy/C++/DZ/DZ1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,27 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/run/media/gleb/USB/Academy/C++/Lessons/Lesson4/cmake-build-debug",
+	"dir-cur-src" : "/run/media/gleb/USB/Academy/C++/Lessons/Lesson4",
+	"dir-top-bld" : "/run/media/gleb/USB/Academy/C++/Lessons/Lesson4/cmake-build-debug",
+	"dir-top-src" : "/run/media/gleb/USB/Academy/C++/Lessons/Lesson4",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/run/media/gleb/USB/Academy/C++/Lessons/Lesson4/cmake-build-debug/CMakeFiles/Lesson4.dir",
+	"sources" : 
+	{
+		"CMakeFiles/Lesson4.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/run/media/gleb/USB/Academy/C++/Lessons/Lesson4/main.cpp"
+		}
+	}
+}

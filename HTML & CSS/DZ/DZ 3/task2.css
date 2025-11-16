@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 150px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+.card__item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.card__item:hover {
+    background-color: #4a4a4a;
+}
+
+.card__item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

@@ -1,0 +1,130 @@
+:root {
+    --main-color: rgb(0, 86, 156);
+}
+
+.uploading {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid;
+    max-width: 1000px;
+}
+
+.uploading__image {
+    display: inline-block;
+    padding: 1em;
+}
+
+.uploading__image img {
+    width: 15em;
+}
+
+.uploading__body {
+    display: inline-block;
+}
+
+.uploading__progress-bar {
+    position: absolute;
+    border: 2px solid var(--main-color);
+    width: 33em;
+    height: 1.7em;
+    top: 3%;
+}
+
+.uploading__progress {
+    position: absolute;
+    background-color: rgba(16, 95, 160, 0.2);
+    width: 40%;
+    height: 1.7em;
+}
+
+.uploading__status {
+    position: absolute;
+    left: 3%;
+    top: -40%;
+}
+
+.uploading__time {
+    position: absolute;
+    left: 62%;
+    top: -40%;
+    text-align: right;
+}
+
+.uploading__title {
+    font-size: 1.3em;
+}
+
+.uploading__description {
+    font-size: 0.9em;
+}
+
+.uploading__button {
+    display: inline-block;
+    position: absolute;
+    top: 3%;
+    width: 12em;
+    text-align: center;
+}
+
+.uploading__button-action {
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.6em 4em;
+}
+
+@media (width < 600px) {
+    .uploading__image {
+        display: block;
+        padding: 1em;
+    }
+
+    .uploading__image img {
+        width: 100%;
+    }
+
+    .uploading__body {
+        position: relative;
+        display: block;
+        border: 1px solid transparent;
+    }
+
+    .uploading__progress-bar {
+        width: 94%;
+        left: 50%;
+        translate: -50%;
+    }
+
+    .uploading__status {
+        left: 3%;
+        top: -40%;
+    }
+
+    .uploading__time {
+        left: 48%;
+        top: -40%;
+    }
+
+    .uploading__title {
+        padding-top: 2em;
+        padding-left: 0.8em;
+    }
+
+    .uploading__description {
+        padding-left: 0.8em;
+    }
+
+    .uploading__button {
+        margin-left: 0;
+        display: block;
+        position: relative;
+        top: 3%;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .uploading__button-action {
+        width: 94%;
+    }
+}

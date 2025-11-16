@@ -1,0 +1,2 @@
+E:\Andriy\STEP\С++OOP\С++Materials\Translate\Week1\Lesson01\les01_04\x64\Debug\StudentGrades.exe
+E:\Andriy\STEP\С++OOP\С++Materials\Translate\Week1\Lesson01\les01_04\x64\Debug\StudentGrades.pdb

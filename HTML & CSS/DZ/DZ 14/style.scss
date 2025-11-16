@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$number-color: #23a0fd;
+$card-color: white;
+$button-color: #ffd01a;
+$card-radius: 2em;
+$guy-img-size: 10em;
+$card-padding: 4em;
+$gray-color: darkgray;
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 650;
+}
+
+.content {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    width: 40%;
+    background-color: $card-color;
+    border-radius: $card-radius;
+    box-shadow: 0 15px 15px 4px rgba(0, 0, 0, 0.475);
+
+    &__upper-img {
+        width: 100%;
+        height: 16em;
+        border-radius: $card-radius $card-radius 0 0;
+    }
+
+    &__lower-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        padding: 7em $card-padding $card-padding $card-padding;
+
+        & > .guy-img {
+            width: $guy-img-size;
+            height: $guy-img-size;
+            border-radius: 100%;
+            box-shadow: 0 3px 15px 2px rgba(0, 0, 0, 0.666);
+            position: absolute;
+            right: 50%;
+            transform: translateX(50%);
+            top: -5em;
+        }
+
+        & > span {
+            position: absolute;
+            font-size: 3em;
+            top: 5%;
+            right: 5%;
+        }
+
+        & > .person {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5em;
+
+            & > p {
+                color: $gray-color;
+            }
+        }
+
+        & > button {
+            width: 100%;
+            background-color: $button-color;
+            border-radius: $card-radius;
+            border: none;
+            height: 3.5em;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.2s ease;
+
+                &:hover {
+                    background-color: #ffdb4c;
+                    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.399);
+
+            }
+        }
+
+        & > p {
+            font-size: 1.4em;
+            font-weight: 320;
+        }
+
+        & > span:hover, button:hover {
+            cursor: pointer;
+        }
+}
+
+.followers-part {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+
+
+        & > h2 {
+            color: $number-color;
+            font-size: 2em;
+            font-weight: 750;
+        }
+
+        & > p {
+            color: $gray-color;
+        }
+    }
+
+}
+}

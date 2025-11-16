@@ -1,0 +1,10 @@
+^D:\SYNC\ACADEMY\C++\LESSONS\LESSON32_CROW\CMAKELISTS.TXT
+setlocal
+C:\Users\gmedv\scoop\apps\cmake\current\bin\cmake.exe -SD:/Sync/Academy/C++/Lessons/Lesson32_Crow -BD:/Sync/Academy/C++/Lessons/Lesson32_Crow/build --check-stamp-file D:/Sync/Academy/C++/Lessons/Lesson32_Crow/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

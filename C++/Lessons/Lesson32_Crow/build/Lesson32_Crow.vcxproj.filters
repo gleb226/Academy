@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Sync\Academy\C++\Lessons\Lesson32_Crow\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sync\Academy\C++\Lessons\Lesson32_Crow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A03443F0-A3BB-3C3D-A46C-7096455F66A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

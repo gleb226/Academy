@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Lesson32_Crow.dir\\Debug\\main.obj",
+            "outputs": [
+                "D:\\Sync\\Academy\\C++\\Lessons\\Lesson32_Crow\\build\\Lesson32_Crow.dir\\Debug\\vc143.pdb",
+                "Lesson32_Crow.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

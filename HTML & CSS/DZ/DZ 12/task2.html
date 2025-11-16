@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Registration</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
+    <link rel="stylesheet" href="task2.css" />
+</head>
+<body>
+<main class="registration">
+    <h1 class="registration__title">Online Game Registration</h1>
+    <form class="registration__form">
+        <fieldset class="registration__fieldset">
+            <label class="registration__label" for="nickname">Nickname</label>
+            <input class="registration__input" type="text" id="nickname" name="nickname" required />
+        </fieldset>
+
+        <fieldset class="registration__fieldset">
+            <label class="registration__label" for="email">Email</label>
+            <input class="registration__input" type="email" id="email" name="email" required />
+        </fieldset>
+
+        <fieldset class="registration__fieldset">
+            <label class="registration__label" for="birthdate">Date of Birth</label>
+            <input class="registration__input" type="date" id="birthdate" name="birthdate" required />
+        </fieldset>
+
+        <fieldset class="registration__fieldset">
+            <legend class="registration__legend">Gender</legend>
+            <div class="registration__options">
+                <label class="registration__radio">
+                    <input type="radio" name="gender" value="male" checked />
+                    Male
+                </label>
+                <label class="registration__radio">
+                    <input type="radio" name="gender" value="female" />
+                    Female
+                </label>
+                <label class="registration__radio">
+                    <input type="radio" name="gender" value="other" />
+                    Other
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="registration__fieldset">
+            <label class="registration__label" for="country">Country</label>
+            <input class="registration__input" list="country-list" id="country" name="country" required />
+            <datalist id="country-list">
+                <option value="Ukraine"></option>
+                <option value="Czech Republic"></option>
+                <option value="Poland"></option>
+                <option value="Germany"></option>
+                <option value="United States"></option>
+            </datalist>
+        </fieldset>
+
+        <fieldset class="registration__fieldset">
+            <label class="registration__label" for="hero">Hero Type</label>
+            <select class="registration__select" id="hero" name="hero" required>
+                <option value="warrior">Warrior</option>
+                <option value="mage">Mage</option>
+                <option value="archer">Archer</option>
+                <option value="healer">Healer</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="registration__fieldset">
+            <label class="registration__label" for="experience">Experience (years)</label>
+            <input class="registration__input" type="number" id="experience" name="experience" min="0" max="60" />
+        </fieldset>
+
+        <button class="registration__submit" type="submit">Register</button>
+    </form>
+</main>
+</body>
+</html>

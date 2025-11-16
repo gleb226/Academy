@@ -1,0 +1,3 @@
+﻿  StudentGrades.cpp
+E:\Andriy\STEP\С++OOP\С++Materials\Translate\Week1\Lesson01\les01_04\StudentGrades.cpp(20,13): warning C4101: 'student': unreferenced local variable
+  StudentGrades.vcxproj -> E:\Andriy\STEP\С++OOP\С++Materials\Translate\Week1\Lesson01\les01_04\x64\Debug\StudentGrades.exe

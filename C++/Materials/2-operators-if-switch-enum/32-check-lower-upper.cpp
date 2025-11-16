@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char ch;
+    cout << "Enter any alphabet\n";
+    cin >> ch;
+    if (ch >= 65 && ch <= 90)
+    {
+        cout << "Uppercase";
+    }
+    else
+    {
+        cout << "Lowercase";
+    }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="page d-flex flex-column" style="gap: 30px;">
+        <nav class="navbar navbar-expand-lg navbar--dark">
+            <div class="container-fluid">
+                <a class="navbar__brand text-light" href="#">Bootstrap</a>
+                <button class="navbar__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar__toggler-icon"></span>
+                </button>
+                <div class="navbar__collapse" id="navbarNav">
+                    <ul class="navbar__nav">
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link--active text-white-50" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link text-light" href="#">BLOG</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link text-white-50" href="#">ABOUT</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link text-white-50" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content d-flex flex-xl-row flex-column w-100" style="gap: 4em;">
+            <section class="cards-section d-flex flex-column flex-xxl-row gap-4 w-xl-50 w-100">
+                <div class="card card--default w-100 w-xxl-25 h-auto">
+                    <img src="images/blog_1.png" class="card__img-top" alt="...">
+                    <div class="card__body">
+                        <h5 class="card__title">Lorem ipsum dolor sit.</h5>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corrupti sint doloremque labore porro dicta, eaque optio. Animi, quo voluptatibus laborum eos sed dignissimos deserunt, necessitatibus architecto consequatur et quasi.</p>
+                        <a href="#" class="btn btn--primary bg-dark border-dark">VIEW MORE</a>
+                    </div>
+                </div>
+                <div class="card card--default w-100 w-xxl-25 h-auto">
+                    <img src="images/blog_2.png" class="card__img-top" alt="...">
+                    <div class="card__body">
+                        <h5 class="card__title">Lorem ipsum dolor sit.</h5>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat alias perspiciatis esse consequatur, iusto dolores ab itaque iure maxime excepturi amet quidem veritatis modi officiis id consectetur temporibus dolorum! Quae.</p>
+                        <a href="#" class="btn btn--primary bg-dark border-dark">VIEW MORE</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="text-section d-flex flex-column gap-4 w-xl-50 w-100">
+                <div class="text-section__post-part w-100">
+                    <h2 class="text-section__title">Last post</h2>
+                    <ol class="list-group">
+                        <li class="list-group__item border-white">Lorem ipsum dolor sit amet.</li>
+                        <li class="list-group__item border-white">Lorem ipsum dolor sit amet.</li>
+                        <li class="list-group__item border-white">Lorem ipsum dolor sit amet.</li>
+                    </ol>
+                </div>
+
+                <div class="text-section__button-part w-100">
+                    <h2 class="text-section__title">Last post</h2>
+                    <ol>
+                        <button type="button" class="btn btn--dark rounded-0">BOOTSTRAP</button>
+                        <button type="button" class="btn btn--dark rounded-0">DEVELOPERS</button>
+                        <button type="button" class="btn btn--dark rounded-0">PHOTO</button>
+                        <button type="button" class="btn btn--dark rounded-0">VIDEO</button>
+                        <button type="button" class="btn btn--dark rounded-0">ART</button>
+                        <button type="button" class="btn btn--dark rounded-0">FRONT</button>
+                        <button type="button" class="btn btn--dark rounded-0">BACK</button>
+                        <button type="button" class="btn btn--dark rounded-0">GRID</button>
+                        <button type="button" class="btn btn--dark rounded-0">EMBED</button>
+                    </ol>
+                </div>
+
+                <div class="text-section__search-part d-flex flex-column gap-2 align-items-start">
+                    <h2 class="text-section__title">Search</h2>
+                    <p class="text-section__text">Search:</p>
+                    <input type="text" class="input w-100 border-light rounded p-2">
+                    <button type="button" class="btn btn--dark text-light p-2">GO!</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer bg-dark p-2 w-100">
+            <div class="footer__content d-flex flex-column gap-2 align-items-center">
+                <div class="footer__socials row d-flex flex-row gap-2 justify-content-center" style="width: 100%;">
+                    <button class="btn btn--primary bg-dark border-light" style="width: 120px;" type="button">FACEBOOK</button>
+                    <button class="btn btn--primary bg-dark border-light" style="width: 120px;" type="button">TWITTER</button>
+                    <button class="btn btn--primary bg-dark border-light" style="width: 120px;" type="button">INSTAGRAM</button>
+                </div>
+                <div class="footer__copyright row">
+                    <p class="text-light">© 2020 All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

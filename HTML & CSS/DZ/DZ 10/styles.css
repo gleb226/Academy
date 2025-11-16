@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d4d4d;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #3a3a3a;
+    padding: 20px;
+}
+
+.header__container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__subtitle {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about__image img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.about__content {
+    flex: 1;
+    text-align: left;
+}
+
+.about__title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.about__stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.works {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.works__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.works__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.works__item {
+    position: relative;
+}
+
+.works__item img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.works__item--large {
+    grid-column: span 2;
+}
+
+.works__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+
+.instagram {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.instagram__gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.instagram__item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #3a3a3a;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #bbb;
+}

@@ -1,0 +1,121 @@
+$primary-color: #2bd2ff;
+$background-color: #333;
+$text-color: #fff;
+$card-bg: #3a3f47;
+$btn-bg: #ffffff;
+$btn-text: #000000;
+$border-color: #555;
+$shadow-color: rgba(0, 0, 0, 0.3);
+$overlay-blur: rgba(43, 210, 255, 0.15);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: $card-bg;
+    border: 2px solid $border-color;
+    border-radius: 10px;
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0 6px 14px $shadow-color;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 10px 20px $shadow-color;
+    }
+
+    &__image {
+        position: relative;
+        height: 180px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        &:hover .card__overlay {
+            opacity: 1;
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $overlay-blur;
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    &__btn {
+        background: $btn-bg;
+        color: $btn-text;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.2s ease, transform 0.2s ease;
+
+        &:hover {
+            background: darken($btn-bg, 10%);
+            transform: scale(1.1);
+        }
+    }
+
+    &__content {
+        padding: 15px;
+    }
+
+    &__title {
+        color: $text-color;
+        font-size: 1em;
+        margin-bottom: 10px;
+        font-family: "Boldonse", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    &__price {
+        color: $primary-color;
+        font-size: 0.95em;
+        font-weight: bold;
+    }
+
+    &__description {
+        color: lighten($text-color, 30%);
+        font-size: 0.9em;
+        margin-top: 8px;
+        font-family: "Roboto", sans-serif;
+    }
+}

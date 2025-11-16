@@ -1,0 +1,78 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.nav {
+    display: inline-block;
+    padding-bottom: 2em;
+}
+
+.nav__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #4c996b;
+    display: flex;
+}
+
+.nav__item {
+    position: relative;
+}
+
+.nav__link {
+    display: block;
+    padding: 1.5em 3em;
+    color: white;
+    width: 9em;
+    text-align: center;
+    border: 1px solid #3f8058;
+}
+
+.nav__link:hover {
+    background: #3f8058;
+}
+
+.nav__submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4c996b;
+    text-align: center;
+}
+
+.nav__submenu-link {
+    display: block;
+    padding: 1.5em 5.5em;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #3f8058;
+}
+
+.nav__submenu-link:hover {
+    background: #3f8058;
+}
+
+.nav__item:hover > .nav__submenu {
+    display: block;
+}
+
+.nav__submenu-item:hover > .nav__submenu {
+    display: block;
+    top: 0;
+    left: 100%;
+}
+
+.nav__item:hover > .nav__link {
+    background: #3f8058;
+}
+
+.content__text {
+    font-size: 1.2em;
+    width: 60em;
+}

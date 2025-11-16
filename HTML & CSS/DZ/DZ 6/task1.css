@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 450px;
+    height: 600px;
+    position: relative;
+}
+
+.photo {
+    margin-top: 200px;
+    z-index: 2;
+    padding: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.square1 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    border: 10px solid pink;
+    border-bottom: none;
+    border-top: none;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    z-index: 3;
+}
+
+
+.square2 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    border: 10px solid pink;
+    border-left: none;
+    border-right: none;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    z-index: 1;
+}

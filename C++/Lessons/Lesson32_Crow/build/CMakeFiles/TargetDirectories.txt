@@ -1,0 +1,3 @@
+D:/Sync/Academy/C++/Lessons/Lesson32_Crow/build/CMakeFiles/Lesson32_Crow.dir
+D:/Sync/Academy/C++/Lessons/Lesson32_Crow/build/CMakeFiles/ALL_BUILD.dir
+D:/Sync/Academy/C++/Lessons/Lesson32_Crow/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,5 @@
+﻿  Student.cpp
+E:\Andriy\STEP\С++OOP\С++Materials\Translate\Week1\Lesson01\les01_13\Student.cpp(25,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  StudentGrades.cpp
+  Generating Code...
+  StudentGrades.vcxproj -> E:\Andriy\STEP\С++OOP\С++Materials\Translate\Week1\Lesson01\les01_13\x64\Debug\StudentGrades.exe
