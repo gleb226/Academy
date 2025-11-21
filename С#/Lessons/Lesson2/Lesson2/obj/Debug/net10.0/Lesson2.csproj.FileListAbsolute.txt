@@ -1,0 +1,15 @@
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\bin\Debug\net10.0\Lesson2.exe
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\bin\Debug\net10.0\Lesson2.deps.json
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\bin\Debug\net10.0\Lesson2.runtimeconfig.json
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\bin\Debug\net10.0\Lesson2.dll
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\bin\Debug\net10.0\Lesson2.pdb
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.AssemblyInfoInputs.cache
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.AssemblyInfo.cs
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.csproj.CoreCompileInputs.cache
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.sourcelink.json
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.dll
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\refint\Lesson2.dll
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.pdb
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\Lesson2.genruntimeconfig.cache
+D:\Sync\Academy\С#\Lessons\Lesson2\Lesson2\obj\Debug\net10.0\ref\Lesson2.dll

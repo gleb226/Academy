@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sync\\Academy\\\u0421#\\DZ\\DZ1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D626B1B6-BC9B-4577-88EC-DB73D9D72A67}|DZ1\\DZ1.csproj|d:\\sync\\academy\\\u0441#\\dz\\dz1\\dz1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D626B1B6-BC9B-4577-88EC-DB73D9D72A67}|DZ1\\DZ1.csproj|solutionrelative:dz1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task1.cs",
+              "DocumentMoniker": "D:\\Sync\\Academy\\\u0421#\\DZ\\DZ1\\DZ1\\task1.cs",
+              "RelativeDocumentMoniker": "DZ1\\task1.cs",
+              "ToolTip": "D:\\Sync\\Academy\\\u0421#\\DZ\\DZ1\\DZ1\\task1.cs*",
+              "RelativeToolTip": "DZ1\\task1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:21:45.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

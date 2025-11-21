@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ContactManager",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ContactManager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContactManager-Debug-f5676b6864fec2a5f9c5.json",
+					"name" : "ContactManager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ContactManagerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ContactManagerLib-Debug-5a41b47959ff7e29fe9d.json",
+					"name" : "ContactManagerLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Sync/Academy/C++/DZ/DZ36_Last!!!/cmake-build-debug",
+		"source" : "D:/Sync/Academy/C++/DZ/DZ36_Last!!!"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

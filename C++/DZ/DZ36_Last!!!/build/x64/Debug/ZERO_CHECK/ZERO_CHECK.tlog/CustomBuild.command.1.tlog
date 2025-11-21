@@ -1,0 +1,10 @@
+^D:\SYNC\ACADEMY\C++\DZ\DZ36_LAST!!!\BUILD\CMAKEFILES\FC2BF83C40C0424AD217445D5DA6E60B\GENERATE.STAMP.RULE
+setlocal
+C:\Users\gmedv\scoop\apps\cmake\current\bin\cmake.exe -SD:/Sync/Academy/C++/DZ/DZ36_Last!!! -BD:/Sync/Academy/C++/DZ/DZ36_Last!!!/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Sync/Academy/C++/DZ/DZ36_Last!!!/build/ContactManager.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

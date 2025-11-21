@@ -1,0 +1,4 @@
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/build/CMakeFiles/ContactManagerLib.dir
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/build/CMakeFiles/ContactManager.dir
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/build/CMakeFiles/ALL_BUILD.dir
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/build/CMakeFiles/ZERO_CHECK.dir

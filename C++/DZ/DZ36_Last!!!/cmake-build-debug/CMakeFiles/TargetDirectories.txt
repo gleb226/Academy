@@ -1,0 +1,4 @@
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/cmake-build-debug/CMakeFiles/ContactManagerLib.dir
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/cmake-build-debug/CMakeFiles/ContactManager.dir
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Sync/Academy/C++/DZ/DZ36_Last!!!/cmake-build-debug/CMakeFiles/rebuild_cache.dir

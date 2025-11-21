@@ -1,0 +1,2 @@
+D:\Sync\Academy\С#\Lessons\Lesson1\Lesson1\bin\Release\net9.0\win-x64\publish\Lesson1.pdb
+D:\Sync\Academy\С#\Lessons\Lesson1\Lesson1\bin\Release\net9.0\win-x64\publish\Lesson1.exe
